@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lcfg.egg-info/PKG-INFO
+lcfg.egg-info/SOURCES.txt
+lcfg.egg-info/dependency_links.txt
+lcfg.egg-info/top_level.txt
+lfg/__init__.py
+lfg/dump.py
+lfg/format.py
+lfg/lessen.py
+lfg/load.py

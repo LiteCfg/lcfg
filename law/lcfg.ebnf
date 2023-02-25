@@ -1,0 +1,44 @@
+/* LiteCfg Syntax Specification |EBNF-W3C| */
+
+lcfg ::= minimizition | readable
+
+mini
+
+/* init */
+
+char ::= 
+
+whitespace ::= ' ' | #x9 | #xA | #xD
+
+
+
+
+/* Number */
+
+Number ::= int | float | Exponent
+
+Exponent ::= Number?<e,E>Number?
+/* 从左往右解析指数？ */
+
+int   ::= ["+","-""]*digit  /*!*/
+float ::= ["+","-""]*digit*"."digit*  /*进制float?*/
+
+digit ::= [0[b,x,o,...]][0-9]+
+
+/* String */
+
+String ::= char* -Number
+
+/* Note */
+
+StartNote ::= char* #x23
+Note ::= #x23 char* #x23  /* # notes...# */
+
+/* 可以省略一个 换行 在字符串内 自转义？ */
+
+/* Call */
+
+
+
+
+

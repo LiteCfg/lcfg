@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lcfg
+Version: 0.0.1
+Summary: Convert lcfg to Python object
+Home-page: https://github.com/Cure-Dev/pylcfg
+Author: Cure-X
+Author-email: admin@cure-x.net
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lcfg for Python
+
+Convert LiteConfig to Python object.
+
+将 lcfg 转换为 Python 对象。
+
+___
+
+This project is under development.
+
+此项目正在开发中
